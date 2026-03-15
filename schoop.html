@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schoop — Smarter Office Hours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="schoop.css" />
+  </head>
+  <body>
+    <div class="deck">
+      <!-- Slide 1: Opening / Hero -->
+      <section class="slide slide-hero active" id="slide-opening" aria-label="Opening">
+        <div class="slide-inner">
+          <header class="hero-header">
+            <p class="eyebrow">Project Pitch</p>
+            <h1>Schoop</h1>
+            <p class="hero-tagline">A smarter way to schedule office hours.</p>
+          </header>
+          <div class="hero-body">
+            <p class="lede">
+              Have you ever needed help from a professor, but the office hours didn’t work with your schedule?
+            </p>
+            <p>
+              Or maybe you sent an email asking for help and had to wait hours or even days for a reply. This is a
+              common problem for students and professors in universities.
+            </p>
+          </div>
+          <div class="hero-footer">
+            <p class="hint">Press <span>→</span> or click <strong>Next</strong> to continue.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 2: Problem -->
+      <section class="slide" id="slide-problem" aria-label="Problem">
+        <div class="slide-inner">
+          <h2>Problem</h2>
+          <p class="slide-intro">
+            Today, organizing office hours or extra help sessions is often inefficient for both students and professors.
+          </p>
+
+          <div class="two-column">
+            <div class="column card">
+              <h3>For students</h3>
+              <ul>
+                <li>Office hours conflict with classes, jobs, or commuting times.</li>
+                <li>Uncertainty about when a professor is actually available.</li>
+                <li>Slow back-and-forth over email just to ask a question.</li>
+              </ul>
+            </div>
+            <div class="column card">
+              <h3>For professors</h3>
+              <ul>
+                <li>No clear picture of when most students are free.</li>
+                <li>Overcrowded office hours at some times, empty ones at others.</li>
+                <li>Lots of individual emails to coordinate extra help sessions.</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="slide-summary">
+            The result: overcrowded office hours, missed opportunities for help, and a lot of unnecessary coordination.
+          </p>
+        </div>
+      </section>
+
+      <!-- Slide 3: Solution -->
+      <section class="slide" id="slide-solution" aria-label="Solution">
+        <div class="slide-inner">
+          <h2>Solution — Schoop</h2>
+          <p class="slide-intro">
+            To solve this problem, we built <strong>Schoop</strong> — a scheduling platform designed to simplify
+            communication between students and teachers.
+          </p>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Smart scheduling polls</h3>
+              <p>
+                Professors create time slots for specific courses, and students quickly mark what works for them.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Instant majority view</h3>
+              <p>
+                Schoop automatically aggregates responses to show which times work best for the majority of students.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Less email, more help</h3>
+              <p>
+                Instead of long email chains, students and professors align on office hours in a single, shared view.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 4: How it works -->
+      <section class="slide" id="slide-how" aria-label="How it works">
+        <div class="slide-inner">
+          <h2>How it works</h2>
+          <div class="flow-grid">
+            <div class="card flow-card">
+              <h3>Professors</h3>
+              <ol>
+                <li>Log in using their university email.</li>
+                <li>Select the course and create available time slots.</li>
+                <li>Share the Schoop poll link with their students.</li>
+              </ol>
+            </div>
+            <div class="card flow-card">
+              <h3>Students</h3>
+              <ol>
+                <li>Log in with their school email.</li>
+                <li>Choose the time slots that work best for them.</li>
+                <li>See how classmates responded and view the final schedule.</li>
+              </ol>
+            </div>
+          </div>
+
+          <p class="slide-summary">
+            Behind the scenes, Schoop aggregates every response and generates a clear schedule that highlights the
+            best-fit times.
+          </p>
+        </div>
+      </section>
+
+      <!-- Slide 5: Key features -->
+      <section class="slide" id="slide-features" aria-label="Key features">
+        <div class="slide-inner">
+          <h2>Key features</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Multiple teachers</h3>
+              <p>Support for many professors using the platform at the same time.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Multiple courses</h3>
+              <p>Each course has its own schedule and availability poll.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Live vote counts</h3>
+              <p>Students can see how many classmates selected each time slot.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Final schedule view</h3>
+              <p>
+                Once responses are in, everyone can see the final schedule based on the teacher’s selected
+                availability.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 6: Technology -->
+      <section class="slide" id="slide-technology" aria-label="Technology">
+        <div class="slide-inner">
+          <h2>Technology</h2>
+          <p class="slide-intro">
+            Schoop is deliberately lightweight, using tools that many universities already rely on.
+          </p>
+
+          <div class="tech-grid">
+            <div class="card tech-card">
+              <h3>Frontend</h3>
+              <ul>
+                <li>JavaScript-powered web interface.</li>
+                <li>Responsive layout designed for both laptops and projectors.</li>
+              </ul>
+            </div>
+            <div class="card tech-card">
+              <h3>Backend</h3>
+              <ul>
+                <li>Google Apps Script as the application layer.</li>
+                <li>JSON-based HTTP APIs for communication with the frontend.</li>
+              </ul>
+            </div>
+            <div class="card tech-card">
+              <h3>Data</h3>
+              <ul>
+                <li>Google Sheets used as a lightweight, structured database.</li>
+                <li>Easy to inspect, export, and share schedule data.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 7: Impact & Closing -->
+      <section class="slide" id="slide-impact" aria-label="Impact and closing">
+        <div class="slide-inner">
+          <h2>Impact</h2>
+          <p>
+            With Schoop, professors can organize office hours more efficiently, and students can easily find help
+            sessions that actually fit their schedules.
+          </p>
+
+          <div class="impact-grid">
+            <div class="card impact-card">
+              <h3>For professors</h3>
+              <ul>
+                <li>Office hours that align with when students are truly available.</li>
+                <li>Fewer emails and manual scheduling headaches.</li>
+              </ul>
+            </div>
+            <div class="card impact-card">
+              <h3>For students</h3>
+              <ul>
+                <li>Easier access to academic support.</li>
+                <li>Less time spent coordinating, more time spent learning.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="closing-block">
+            <h2>Closing</h2>
+            <p>
+              Our goal is simple: make academic support easier to organize, easier to access, and more effective for
+              both students and professors.
+            </p>
+            <p class="questions">Thank you for listening. We’re happy to answer any questions.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="deck-nav" aria-label="Slide navigation">
+      <button type="button" class="nav-button" id="prevBtn" aria-label="Previous slide">
+        ← Previous
+      </button>
+      <div class="nav-center">
+        <div class="nav-dots" id="navDots" aria-hidden="true"></div>
+        <p class="nav-counter" id="navCounter">1 / 7</p>
+      </div>
+      <button type="button" class="nav-button primary" id="nextBtn" aria-label="Next slide">
+        Next →
+      </button>
+    </footer>
+
+    <script src="schoop.js"></script>
+  </body>
+  </html>
+
