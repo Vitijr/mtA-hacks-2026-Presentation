@@ -299,6 +299,31 @@ li + li {
   color: #e4e4ff;
 }
 
+/* Ad image slide */
+
+.ad-slide .slide-inner {
+  padding: 1.4rem 1.4rem 1.6rem;
+}
+
+.ad-slide-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.9rem;
+  color: var(--text-muted);
+}
+
+.ad-image-wrapper {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-soft);
+  background: #000;
+}
+
+.ad-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* Deck navigation */
 
 .deck-nav {
